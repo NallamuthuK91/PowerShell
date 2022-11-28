@@ -1,6 +1,6 @@
 Start-Transcript -Path H:\PSTransciptlogs
 $Folder1path = "C:\Users\Nallamuthu\Downloads\Telegram Desktop\"
-$Folder2path = "H:\Telegram_Downloads_Backup"
+$Folder2path = "H:\Telegram_Downloads_Backup\"
 $Folder1 = Get-childitem -path $Folder1path -Recurse
 $Folder2 = Get-childitem -path $Folder2path -Recurse
 Compare-Object -ReferenceObject $folder1 -DifferenceObject $Folder2
