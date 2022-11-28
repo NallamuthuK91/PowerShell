@@ -1,4 +1,4 @@
-Start-Transcript -Path H:\PSTransciptlogs
+Start-Transcript -OutputDirectory H:\PSTransciptlogs\
 $Folder1path = "C:\Users\Nallamuthu\Downloads\Telegram Desktop\"
 $Folder2path = "H:\Telegram_Downloads_Backup\Telegram Desktop\"
 $Folder1 = Get-childitem -path $Folder1path -Recurse
