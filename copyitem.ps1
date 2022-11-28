@@ -9,4 +9,6 @@ Where-Object {$_.SideIndicator -eq "<="} |
 ForEach-Object {
             Copy-Item "$Folder1path\$($_.name)" -Destination "$Folder2path" -Force -Recurse
 }
+
+Write-Host "CI CD Enabled"
 Stop-Transcript
