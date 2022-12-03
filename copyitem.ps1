@@ -1,3 +1,4 @@
+Start-Process powershell -Verb runAs Administrator
 Start-Transcript -OutputDirectory H:\PSTransciptlogs\
 $Folder1path = "C:\Users\Nallamuthu\Downloads\Telegram Desktop\"
 $Folder2path = "H:\Telegram_Downloads_Backup\Telegram Desktop\"
